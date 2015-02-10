@@ -8,7 +8,6 @@ public class Problem14 {
 		while (num < 1000000) {
 			temp = num;
 			count = 0;
-//			for (int x = 0; x < num;) {
 			while(temp != 1){
 				if (temp % 2 == 0) {
 					temp = temp / 2;
